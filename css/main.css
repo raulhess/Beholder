@@ -160,22 +160,69 @@ html,body {
 	border-radius: 3px;
 	background-color: rgba(252,252,192,0.95);
 	margin-left: 270px;
+	overflow: auto;
+}
+
+.info-window {
+	width: 45%;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	background-color: rgba(255,255,255,0.5);
+	border-bottom: solid thin #CCC;
+	border-right: solid thin #CCC;
+	border-radius: 3px;
+}
+
+.info-window h1 {
+	margin: 8px 4px 8px 4px;
+	font-size: 30px;
+	font-family: pirata;
+	font-weight: normal;
+	color: #2d2b28;
+}
+
+.info-window h2 {
+	margin: 4px;
+	font-size: 15px;
+	font-weight: normal;
+	color: #666;
+	font-style: italic;
+}
+
+.info-window hr {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid thin #3b3834;
+	margin: 6px 0 6px 0;
+}
+
+.info-window p {
+	margin: 4px 0 4px 0;
+	text-align: justify;
 }
 
 @media screen and (max-width: 770px){
 	.sub-link{
 		display: none;
 	}
-	
+
 	.mobile-link{
-		display: table-cell;	
+		display: table-cell;
 	}
-	
+
 	#menu{
 		display: none;
 	}
-	
+
 	#content{
 		margin-left: 10px;
+	}
+
+	.info-window{
+		width: 95%;
+		float: none;
+		margin: 5px auto;
 	}
 }

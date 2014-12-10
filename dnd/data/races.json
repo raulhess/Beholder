@@ -1,0 +1,21 @@
+{
+  "Anão":{
+    "intro":"Anões são ...",
+    "caracteristicas":{
+      "Bônus de Atributo":"+2 Constituição",
+      "Conhecimento das Rochas":"o anão recebe proficiência em testes de história relacionados a objetos feitos de pedras"
+    }
+  },
+  "Elfo":{
+    "intro":"Os elfos ...",
+    "caracteristicas":{
+      "Bônus de Atributo":"+1 Inteligência e +1 em Destreza"
+    }
+  },
+  "Humano":{
+    "intro":"Os humanos ...",
+    "caracteristicas":{
+      "Bônus de Atributo":"+1 em um atributo a sua escolha"
+    }
+  }
+}
