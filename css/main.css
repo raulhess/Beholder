@@ -91,7 +91,7 @@ html,body {
 	border-right: solid 2px #3f7e6d;
 	background-color: rgba(21,21,21,0.5);
 	background-image: url('../images/mobileIcon.png');
-	background-size: contain;
+	background-size: 40px;
 	background-position: center;
 	background-repeat: no-repeat;
 	vertical-align: middle;
@@ -162,7 +162,9 @@ html,body {
 	padding: 5px;
 	min-height: 300px;
 	border-radius: 3px;
-	background-color: rgba(255,255,255,0.95);
+	border-bottom: solid thin #d0d081;
+	border-right: solid thin #d0d081;
+	background-color: rgba(252,252,192,0.9);
 	margin-left: 270px;
 	overflow: auto;
 }
@@ -172,9 +174,9 @@ html,body {
 	margin: 5px;
 	padding: 5px;
 	float: left;
-	background-color: rgba(252,252,192,0.9);
-	border-bottom: solid thin #d0d081;
-	border-right: solid thin #d0d081;
+	background-color: #FFF;
+	border-bottom: solid thin #CCC;
+	border-right: solid thin #CCC;
 	border-radius: 3px;
 }
 
