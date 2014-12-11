@@ -4,7 +4,10 @@
   if($page != false){
     include 'pages/'.$page.'.php';
   }else{
-    echo "Página inicial do cenário <i>Coração de Pedra</i>.";
+    echo "<div class='section'>";
+    echo "<h1>Coração de Pedra</h1>";
+    echo "Bem-vindo ao resumo do cenário Coração de Pedra para <i>Dungeons and Dragons</i> 5ª Edição.";
+    echo "</div>";
   }
   ?>
 </div>
